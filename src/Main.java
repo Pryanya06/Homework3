@@ -71,7 +71,7 @@ public class Main {
     byte lose250 = (byte) ((weightKg * kg1) / gr250);
     byte lose500 = (byte) (( weightKg * kg1) / gr500);
     float meanDays =  ((weightKg * kg1) / ((gr250 + gr500) / 2f));
-    System.out.println (" При похудении на 250 грамм в сутки спортсмен похудеет за " +  lose250 + " дней, на 500 грамм за " + lose500 +" дней, а при среднем значении за " + meanDays + " дней");
+    System.out.println (" При похудении на 250 грамм в сутки, спортсмен похудеет за " +  lose250 + " дней, на 500 грамм за " + lose500 +" дней, а при среднем значении за " + meanDays + " дней");
 
 
     int Masha = 67760;
